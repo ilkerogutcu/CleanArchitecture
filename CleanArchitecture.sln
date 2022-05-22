@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BBF24212-6525-49A1-BF73-B2C237FB1C18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D45D4237-056D-4BD8-A24C-481568B80B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Domain", "src\Core\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{CC858551-4E93-43B4-B370-C349F1DB97A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D45D4237-056D-4BD8-A24C-481568B80B09} = {BBF24212-6525-49A1-BF73-B2C237FB1C18}
+		{CC858551-4E93-43B4-B370-C349F1DB97A0} = {D45D4237-056D-4BD8-A24C-481568B80B09}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC858551-4E93-43B4-B370-C349F1DB97A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC858551-4E93-43B4-B370-C349F1DB97A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC858551-4E93-43B4-B370-C349F1DB97A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC858551-4E93-43B4-B370-C349F1DB97A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
